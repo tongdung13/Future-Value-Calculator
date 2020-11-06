@@ -14,14 +14,15 @@
         $laisuat = $_POST["laisuat"];
         $giatrituonglai = $_POST["giatrituonglai"];
         $tong = $_POST["tong"];
+        $giatrituonglai = 0;
 
-        for ($i = 0; $i < count($giatrituonglai); $i++) {
-            if ($giatrituonglai == "1") {
+            if ($giatrituonglai += 1) {
                 $tong = $giatrihientai + ($giatrihientai * $laisuat);
-                echo $tong;
+
             }
+
         }
-    }
+    echo $tong;
     ?>
 
 </form>
